@@ -1,0 +1,69 @@
+:root{
+  background-color: rgb(41, 39, 39) ;
+  color: rgb(230, 227, 227);
+}
+header h1{
+  text-align: center;
+  font-size: 50px
+}
+header button{
+  padding: 10px;
+  margin-bottom: 20px;
+  background: rgb(238, 0, 0);
+  color: white;
+  text-align: center
+}
+form{
+  text-align: left;
+  margin: 0 auto;
+  width: 250px;
+  
+}
+.input-container{
+  margin-bottom: 15px ;
+
+}
+.input-container label{
+  display: block;
+  margin-bottom: 5px;
+}
+.input-container input{
+  width: 100%;
+  padding: 7px;
+  font-size: 16px;
+}
+.input-container.checkbox label {
+  display: inline-block;
+
+}
+.input-container.checkbox input{
+  width: auto;
+}
+button{
+  padding: 10px;
+  border: none;
+  border-radius:50px;
+}
+button.submit{
+  padding: 10px;
+  margin-left: 10px;
+  background: greenyellow;
+}
+li{
+  list-style-type:none ;
+}
+body{
+  text-align: center;
+}
+.list{ 
+  width:100%;
+  text-align: left;
+}
+.list li{
+  border: none;
+  border-radius:50px;
+  background-color: rgb(15, 15, 15) ;
+  margin: 25px ;
+  display: inline-flex;
+  padding: 20px;
+}
