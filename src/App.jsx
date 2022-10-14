@@ -21,9 +21,7 @@ const selectedUsers=(user)=>{
 setUserSelected(user)
 }
 const deleteSelectUser=()=> setUserSelected(null);
-
   return (
-
     <div className="App">
       <header>
       <h1>
